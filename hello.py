@@ -11,12 +11,9 @@ from langchain.docstore.document import Document
 import boto3
 from flask_cors import CORS
 
-
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "ls__1541d11975564d7db2014fd4255e5f5c"
 app = Flask(__name__)
 CORS(app)
+
 @app.route("/")
 def hello_world():
     return "ai"
