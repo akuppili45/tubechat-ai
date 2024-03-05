@@ -7,3 +7,4 @@ boto3==1.28.2
 Flask==2.3.2
 Flask_Cors==4.0.0
 gunicorn==21.2.0
+sqlite3==3.35.0
